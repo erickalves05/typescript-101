@@ -1,7 +1,7 @@
 class Student {
     fullName: string;
     constructor(public firstName, public middleInitial, public lastName) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
+        this.fullName = firstName + " s " + middleInitial + " " + lastName;
     }
 }
 
@@ -17,4 +17,6 @@ function greeter(person : Person) {
 
 var user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = greeter(user);
+console.log('ha');
+
+// document.body.innerHTML = greeter(user);
